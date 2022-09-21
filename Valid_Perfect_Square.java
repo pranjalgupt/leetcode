@@ -1,4 +1,4 @@
-public class Solution {
+public class Valid_Perfect_Square  {
     public boolean isPerfectSquare(int num) {
         for (int i = 0; i * i >= 0 && i * i <= num; i ++) {
             if (i * i == num) {
