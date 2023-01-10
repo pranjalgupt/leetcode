@@ -7,9 +7,8 @@ public class Main {
         hash_map.put(3,"Black");
         hash_map.put(4,"White");
         hash_map.put(5,"Blue");
-        for(Map.Entry x:hash_map.entrySet()){
-            System.out.println(x.getKey() + " "+x.getValue());
-        }
+        
+        System.out.println("Size of Hash map:"+ hash_map.size());
 
     }
 
